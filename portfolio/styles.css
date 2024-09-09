@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header .tagline {
+    font-style: italic;
+    color: #ddd;
+}
+
+#about {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.bio {
+    margin-top: 1em;
+}
+
+#skills {
+    background: #f4f4f4;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+#projects {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 2em;
+}
+
+.project img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75em 2em;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+}
+
+#contact {
+    background: #f4f4f4;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#contact a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
